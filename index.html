@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="../userimg/favicon.png" type="image/x-icon">
+
+    <title>Salem-Photography</title>
+</head>
+<body>
+    
+
+    <div class="loader-container">
+        <div class="loader">
+            
+        </div>
+    </div>
+
+    <div class="main-con"> 
+        <nav class="nav-bar">
+            <div class="portfolio">
+              <a >
+                <span class="logo-text">Photography</span>
+                <span class="logo-span"><i class='bx bx-camera' ></i></span>
+              </a>
+            </div>
+      
+            <div class="mobile-icon" onclick="toggleMenu()">☰</div>
+      
+            <div class="nav-items">
+              <li><a href="#intro" class="nav-link">Home</a></li>
+              <li><a href="#services" class="nav-link">Services</a></li>
+              <li><a href="#review" class="nav-link">Reviews</a></li>
+              <li><a href="#gallery-sec" class="nav-link">Gallery</a></li>
+              <li><a href="#ab" class="nav-link">About</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </div>
+      
+            <div id="mobile-menu" class="mobile-menu">
+              <a href="#intro" class="mobile-link" onclick="toggleMenu()">Home</a>
+              <a href="#services" class="mobile-link" onclick="toggleMenu()">Services</a>
+      
+              <a href="#review" class="mobile-link" onclick="toggleMenu()"
+                >Reviews</a>
+    
+              <a href="#gallery-sec" class="mobile-link" onclick="toggleMenu()"
+                >Gallery</a>
+    
+                <a href="#ab" class="mobile-link" onclick="toggleMenu()"
+                >About</a>
+              
+                <a href="#contact" class="mobile-link" onclick="toggleMenu()"
+                >Contact</a>
+      
+            </div>
+          </nav>
+    
+    
+          <div id="intro">
+            <div class="content">
+                <h1>Capture the Moments</h1>
+                <p>Experience the magic of photography with our professional studio.</p>
+                <a href="#story" ><button class="explore-btn">Explore</button></a>
+            </div>
+        </div>
+    
+    
+        <div id="story">
+            <div class="our-story">
+                <div class="our-story-image">
+                    <img src="../images/ourstory2.jpg" alt="Our Story">
+                </div>
+                <div class="our-story-content">
+                    <h1>Our Story</h1>
+                    <p>Salem Studio - Wedding & Events offers services in photography, videography for all the functions like Engagement, Wedding, Baby Shower, Birth day parties. We also offers services in modelling photography, fashion photography, product photography, food photography, maternity photography, Family Portrait photography and Alliance portrait photography. Added to this, we also have multiple well equ...</p>
+                    <a href="#" class="read-more">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="service">
+            <section class="services-section" id="services">
+                <h2>Our Services</h2>
+                <h5>What services we're offering</h5>
+                <div class="services-container">
+                    <div class="service-card">
+                        <img src="../images/kidphoto.jpg" alt="Kids Photography">
+                        <h3>Kids Photography</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/weddingphoto.jpg" alt="Wedding Photography">
+                        <h3>Wedding Photography</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/fashionphoto.jpg" alt="Fashion Photography">
+                        <h3>Fashion Photography</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/productphoto.jpg" alt="Product Photography">
+                        <h3>Product Photography</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/portraitphoto.jpg" alt="Portrait Photography">
+                        <h3>Portrait Photography</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/corporatephoto.webp" alt="corporte Photography">
+                        <h3>Corporate Events</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/babyshoot.webp" alt="Baby Photography">
+                        <h3>Baby Shoot</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="../images/pre&post.webp" alt="Baby Photography">
+                        <h3>Pre&Post Wedding</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+    
+    
+    
+        <section class="specialties-section" id="specialties">
+            <h2>Our Specialties</h2>
+            <div class="specialties-container">
+                <div class="specialty-card">
+                    <div class="number-badge">01</div>
+                    <div class="specialty-content">
+                        <div class="specialty-icon">✔️</div>
+                        <h3>Weddings</h3>
+                        <p>Expertly capturing the love, joy, and timeless moments of your special day.</p>
+                    </div>
+                </div>
+    
+                <div class="specialty-card">
+                    <div class="number-badge">02</div>
+                    <div class="specialty-content">
+                        <div class="specialty-icon">✔️</div>
+                        <h3>Portraits</h3>
+                        <p>Creating stunning and personalized portraits that reflect your unique personality.</p>
+                    </div>
+                </div>
+    
+                <div class="specialty-card">
+                    <div class="number-badge">03</div>
+                    <div class="specialty-content">
+                        <div class="specialty-icon">✔️</div>
+                        <h3>Events</h3>
+                        <p>Documenting and immortalizing the energy and essence of your memorable events.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <section class="reviews-section" id="review">
+            <h2>Customer Reviews</h2>
+            <h5>What our customer says?</h5>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <img src="../userimg/user.png" alt="User 1" class="user-img">
+                    <div class="username">Kumar</div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Amazing photography! Loved the creativity.</p>
+                </div>
+    
+                <div class="review-card">
+                    <img src="../userimg/user.png" alt="User 2" class="user-img">
+                    <div class="username">Lokesh</div>
+                    <div class="stars">★★★★☆</div>
+                    <p class="review-text">Beautiful shots and great service!</p>
+                </div>
+    
+                <div class="review-card">
+                    <img src="../userimg/user.png" alt="User 3" class="user-img">
+                    <div class="username">Mohan Raj</div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Highly professional and friendly team.</p>
+                </div>
+    
+                <div class="review-card">
+                    <img src="../userimg/user.png" alt="User 4" class="user-img">
+                    <div class="username">Sugamani Vel</div>
+                    <div class="stars">★★★★☆</div>
+                    <p class="review-text">Very satisfied with the results!</p>
+                </div>
+    
+                <div class="review-card">
+                    <img src="../userimg/user.png" alt="User 5" class="user-img">
+                    <div class="username">Karthik</div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Exceptional photography skills!</p>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section id="gallery-sec">
+            <div class="gal">
+                <center><h2>Gallery</h2></center>
+                <div class="gallery-container">
+                    <div class="gallery">
+                        <img src="../gallery/gal1.jpg">
+                        <img src="../images/portraitphoto.jpg" alt="Portrait" alt="Wedding">
+                        <img src="../gallery/gal2.jpg" alt="Event">
+                        <img src="../gallery/gal3.jpg" alt="Landscape">         
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+    
+        <div class='about' id="ab">
+            <div class='about1'>
+              <h3>About Us</h3>
+            </div>
+            <div class='about2'>
+                <div class='about2-inner'>
+                  <h3>Salem photography</h3>
+                  <p>At Studio 7RK Photography, we are a team of dedicated professionals with a passion for capturing life's most precious moments. With over a decade of experience, we specialize in providing exceptional photography services for weddings, portraits, events, maternity, and baby shoots. Our expertise lies in expertly capturing the love, joy, and timeless essence of weddings, while also creating stunning and personalized portraits that reflect the unique personality of our clients. Additionally, we excel in capturing the beauty and excitement of maternity and the adorable innocence of newborns in our baby shoots. Choose Studio 7RK Photography for a seamless blend of artistry, expertise, and exceptional service, creating lasting memories across all stages of life that you will cherish forever.</p>
+                </div>
+            </div>
+          </div>
+    
+    
+          <div class="contact-container" id="contact">
+            <center><h2>Contact Us</h2></center>
+            <form>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name"  required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email"  required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder= required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write your message..." required></textarea>
+                </div>
+    
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </div>
+        
+    
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Salem Studio</h3>
+                    <p><i class='bx bxs-location-plus' ></i> &nbsp;123 Rangapuram, Salem</p>
+                    <p>TamilNadu - 636010</p>
+                </div>
+    
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#review">Reviews</a>
+                    <a href="#gallery-sec">Gallery</a>
+                    <a href="#ab">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+    
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p><i class='bx bxs-envelope'></i> <a href="mailto:info@photographystudio.com">info@photographystudio.com</a></p>
+                    <p><i class='bx bxs-phone' ></i><a href="tel:+911234567890">+91 12345 67890</a></p>
+                    <div class="social-icons">
+                        <a href="mailto:salemphotography@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+911234567890"><i class="fas fa-phone"></i></a>
+                        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        </div>
+        <a href="#"><button class="top">⬆</button></a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
